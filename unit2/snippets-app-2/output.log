@@ -1,0 +1,172 @@
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Writing green:eggs to snippets.csv
+DEBUG:root:Opening file
+DEBUG:root:Writing snippet to file
+DEBUG:root:Write sucessful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Writing blue:cheese to snippets.csv
+DEBUG:root:Opening file
+DEBUG:root:Writing snippet to file
+DEBUG:root:Write sucessful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Writing white:feta to snippets.csv
+DEBUG:root:Opening file
+DEBUG:root:Writing snippet to file
+DEBUG:root:Write sucessful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Writing white:wine to snippets.csv
+DEBUG:root:Opening file
+DEBUG:root:Writing snippet to file
+DEBUG:root:Write sucessful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Writing white:wine to snippets.csv
+DEBUG:root:Opening file
+DEBUG:root:Writing snippet to file
+DEBUG:root:Write sucessful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Reading white from snippets.csv
+DEBUG:root:opening file
+DEBUG:root:reading snippet from file
+DEBUG:root:read succesful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Reading white from snippets.csv
+DEBUG:root:opening file
+DEBUG:root:reading snippet from file
+DEBUG:root:read succesful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Reading blue from snippets.csv
+DEBUG:root:opening file
+DEBUG:root:reading snippet from file
+DEBUG:root:read succesful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Reading blue from snippets.csv
+DEBUG:root:opening file
+DEBUG:root:reading snippet from file
+DEBUG:root:read succesful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Reading green from snippets.csv
+DEBUG:root:opening file
+DEBUG:root:reading snippet from file
+DEBUG:root:read succesful
+INFO:root:Starting snippets
+INFO:root:Constructing parser
+DEBUG:root:constructing put subparser
+DEBUG:root:constructing get subparser
+INFO:root:Reading blue from snippets.csv
+DEBUG:root:opening file
+DEBUG:root:reading snippet from file
+DEBUG:root:read succesful

@@ -27,7 +27,9 @@ def get(snippet_name,filename):
 		for row in reader:
 			if snippet_name in row:
 				snippet = " ".join(row)
-	logging.debug("read succesful")
+                snippet=list(snippet)
+                print snippet
+	logging.debug("Read succesful")
 	return snippet
  
 def make_parser():
@@ -43,7 +45,7 @@ def make_parser():
 	put_parser.add_argument("filename",default = "snippets.csv",nargs="?",help="The snippet filename")
 
 	#Subparser for the get command
-	logging.debug("constructing get subparser")
+	logging.debug("Constructing get subparser")
 	get_parser = subparsers.add_parser("get",help="Retrieve a snippet")
 	get_parser.add_argument("name",help="The name of the snippet")
 	get_parser.add_argument("filename",default = "snippets.csv",nargs="?",help="The snippet filename")
@@ -65,11 +67,14 @@ def main():
     	file_name = arguments.pop("filename")
     	snippet = get(snippet_name,file_name)
     	print "Retrieved '{}' as '{}'".format(snippet_name, snippet)
-    if command == "put":
+    elif command == "put":
         name, snippet = put(**arguments)
         print "Stored '{}' as '{}'".format(snippet, name)
         print "command is '{}'".format(command)
+    else:
+        print "Command not found"
     return    
  
 if __name__ == "__main__":
     main()
+    

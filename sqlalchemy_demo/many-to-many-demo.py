@@ -22,7 +22,6 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 console_handler.setFormatter(formatter)
 log.addHandler(console_handler)
 
-
 ################################################################################
 # Domain Model
 
@@ -45,11 +44,10 @@ class Species(Base):
     def __repr__(self):
         return self.name                   
 
-
 class Breed(Base):
     """
     domain model class for a Breed
-    has a with many-to-one relationship Species
+    has a with many-to-one relationship withSpecies
     """
     __tablename__ = 'breed'
 
@@ -111,7 +109,7 @@ class Person(Base):
     first_name = Column(String, nullable=False)
     last_name = Column(String, nullable=False)
     age = Column(Integer)
-    _phone = Column(String)
+    _phone = Column(String) #private variable
 
     # mapped relationship 'pets' from backref on Pet class, so we don't
     # need to add it here.
@@ -142,7 +140,6 @@ class Person(Base):
     def __repr__(self):
         return "Person: {} {}".format(self.first_name, self.last_name) 
 
-
 ################################################################################
 def init_db(engine):
     "initialize our database, drops and creates our tables"
@@ -153,7 +150,6 @@ def init_db(engine):
     Base.metadata.create_all(engine)
 
     log.info("  - tables dropped and created")
-
 
 if __name__ == "__main__":
     log.info("main executing:")              
@@ -172,7 +168,6 @@ if __name__ == "__main__":
     # get a local session for the this script
     db_session = Session()
     log.info("Session created: {}".format(db_session) )
-   
 
     # create two people: Tom and Sue
     log.info("Creating person object for Tom")
@@ -186,7 +181,6 @@ if __name__ == "__main__":
                 last_name="Johson",
                 age=54,
                 phone = '555 243 9988')
-
 
     # create two animals, and in process, new species, with two breeds.
     # Note how we only explicitly commit spot and goldie below, but by doing so

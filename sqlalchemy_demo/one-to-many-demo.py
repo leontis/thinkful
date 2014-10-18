@@ -104,8 +104,6 @@ def init_db(engine):
 
     log.info("  - tables dropped and created")
 
-
-
 if __name__ == "__main__":
     log.info("main executing:")              
 

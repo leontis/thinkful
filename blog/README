@@ -1,0 +1,24 @@
+Thinkful blog project
+Directory structure:
+
+blog                        Root directory
+├── blog                    Module directory
+│   ├── static              Static files directory
+│   │   └── css             Stylesheets directory
+│   ├── templates           Templates directory
+│   ├── config.py           App configuration options
+│   ├── database.py         Database setup
+│   ├── filters.py          Custom Jinja filters
+│   ├── __init__.py         App setup and configuration
+│   ├── models.py           SQLAlchemy models
+│   ├── views.py            Views
+├── env                     Virtualenv
+├── manage.py               App management file
+├── requirements.txt        Install requirements
+
+1. Move into the root directory - cd blog
+2. Set up the virtualenv - virtualenv env
+3. Activate the virtualenv - source env/bin/activate
+4. Install the dependencies - pip install flask sqlalchemy flask-login flask-script flask-migrate mistune
+5. Freeze the dependencies - pip freeze > requirements.txt
+6. Ignore the virtualenv - echo env > .gitignore

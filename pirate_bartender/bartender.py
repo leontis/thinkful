@@ -39,11 +39,18 @@ def construct_drink(customer,preferences):
 
 if __name__ == '__main__':
     customer = raw_input('What\'s yer name, Matey? :')
-    print "Welcome to the Dead Man's Bar, ",customer, "!"
-    print "Now I will ask ye some questions to mix ye a special poison. Jest answer \"y\" or \"n\": "
+    print "Welcome to the Dead Man's Bar, ",customer,"!"
+    print "What be yer tastes so I can mix ye up a special poison. Jest answer \"y\" or \"n\": "
     preferences = get_customer_prefs(customer)
     drink = construct_drink(customer,preferences)
-    print "drink contains: ", drink
+    print "Here be yer special poison, a mix of : ", drink
+    while raw_input("Be ye ready fer another? Just signal  \"y\" or \"n\": ") == 'y':
+        print "What be yer tastes so I can mix ye up a special poison. Jest answer \"y\" or \"n\": "
+        drink = construct_drink(customer,preferences)
+        print "Here be yer some more poison you are sure to like, a mix of : ", drink
+    
+    print "Safe Sailing, Matey!"
+
 
 
 

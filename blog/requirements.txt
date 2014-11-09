@@ -7,8 +7,11 @@ Jinja2==2.7.3
 Mako==1.0.0
 MarkupSafe==0.23
 SQLAlchemy==0.9.8
+WTForms==2.0.1
 Werkzeug==0.9.6
 alembic==0.6.7
 itsdangerous==0.24
 mistune==0.4.1
+selenium==2.44.0
+splinter==0.7.0
 wsgiref==0.1.2
